@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100dvh;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  flex: 6;
+  border: 0.1vw solid #000;
+}
+
+.menu{
+  flex: 1;
+  padding: 3dvh;
+  font-size: 1.7dvh;
+  text-align: justify;
+  background-color: #fdd;
+  border: 0.1vw solid #000;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding: 1dvh;
+  text-align: justify;
+  font-size: 1.4dvh;
+  background-color: #d0e7ff;
+  border: 0.1dvh solid #000;
+}
+
+.x{
+  min-width: 7dvh;
+  height: 2dvh;
+  width: auto;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2dvh;
+  padding: 1dvh;
+  font-size: 1.3dvh;
+  background-color: #ffffff;
+  border: 0.1vw solid #000;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: row;
+  flex: 4;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+}
+
+.short-text{
+  max-height: 5dvh;
+  padding: 1dvh;
+  text-align: right;
+  font-size: 1.2dvh;
+  flex: 1;
+  background-color: #e5f2c9;
+  border: 0.1dvh solid #000;
+}
+
+.text-with-image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: 0 1dvh;
+  text-align: justify;
+  font-size: 1.2dvh;
+  background-color: #ffffff;
+  border: 0.1dvh solid #000;
+}
+
+.text-with-image img{
+  align-self: center;
+  height: 9.6dvh;
+  margin: 2dvh;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 100%;
+  font-size: 1.5dvh;
+  background-color: #dff0d8;
+  border: 0.1vw solid #000;
+}
+
+.list ol{
+  padding: 3vw;
+  padding-left: 7vw;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  font-size: 1.5dvh;
+  background-color: #d0e7ff;
+  border: 0.1vw solid #000;
+}
+
+.y{
+  min-width: 7dvh;
+  height: 2dvh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1dvh;
+  margin-left: 5dvh;
+  font-size: 1.3dvh;
+  background-color: #ffffff;
+  padding: 1dvh;
+  border: 0.1dvh solid #000;
+}
+
+.references ul{
+  list-style: none;
+  padding-right: 2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+.references a{
+  text-decoration: none;
+}
+
+/*@media (max-width: 768px) {*/
+/*  .menu, .header, .list {*/
+/*    font-size: 3vw;*/
+/*  }*/
+
+/*  .footer{*/
+/*    font-size: 2vw;*/
+/*  }*/
+
+/*  .menu {*/
+/*    flex: 0 0 25%;*/
+/*  }*/
+
+/*  .y {*/
+/*    margin-right: 10vw;*/
+/*  }*/
+/*}*/
+
+/*@media (max-width: 480px) {*/
+/*  .menu {*/
+/*    flex: 0 0 30%;*/
+/*  }*/
+/*}*/
+
