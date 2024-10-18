@@ -20,9 +20,13 @@ body {
 }
 
 .menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex: 1;
-  padding: 3dvh;
-  font-size: 1.7dvh;
+  min-width: 13dvh;
+  padding: 1dvh;
+  font-size: 1.9dvh;
   text-align: left;
   background-color: #fdd;
   border: 0.1dvh solid #000;
@@ -37,6 +41,8 @@ body {
 .header{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   flex: 1;
   padding: 1dvh;
   text-align: justify;
@@ -72,6 +78,9 @@ body {
 }
 
 .short-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1dvh;
   text-align: right;
   font-size: 1.2dvh;
@@ -83,11 +92,12 @@ body {
 .text-with-image{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   flex: 8;
   padding: 0 1dvh;
   text-align: justify;
-  font-size: 1.2dvh;
+  font-size: 1.7dvh;
   background-color: #ffffff;
   border: 0.1dvh solid #000;
 }
@@ -103,8 +113,9 @@ body {
   align-items: center;
   justify-content: center;
   flex: 1;
+  min-width: 15dvh;
   height: 100%;
-  font-size: 1.5dvh;
+  font-size: 1.9dvh;
   background-color: #dff0d8;
   border: 0.1dvh solid #000;
 }
@@ -147,7 +158,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 2vw;
+  gap: 5dvh;
 }
 
 .references a{
