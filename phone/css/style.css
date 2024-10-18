@@ -23,7 +23,7 @@ body {
   flex: 1;
   padding: 3dvh;
   font-size: 1.7dvh;
-  text-align: justify;
+  text-align: left;
   background-color: #fdd;
   border: 0.1vw solid #000;
 }
@@ -72,7 +72,6 @@ body {
 }
 
 .short-text{
-  max-height: 5dvh;
   padding: 1dvh;
   text-align: right;
   font-size: 1.2dvh;
@@ -85,7 +84,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 1;
+  flex: 8;
   padding: 0 1dvh;
   text-align: justify;
   font-size: 1.2dvh;
