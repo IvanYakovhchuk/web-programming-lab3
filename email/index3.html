@@ -4,33 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Table Layout Example</title>
-  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body style="margin: 0; padding: 0; overflow: auto;">
 
-<table class="container">
+<table class="container" style="height: 100vh; width: 100%; border-collapse: collapse;">
 
   <tr>
-    <td rowspan="3" class="menu">
+    <td rowspan="3" class="menu" style="text-align: justify; padding: 2vw; width: 20vw; background-color: #fdd; border: 0.1vw solid #000;">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </td>
 
-    <td colspan="3" class="header">
+    <td colspan="3" class="header" style="height: 12vw; vertical-align: center; background-color: #d0e7ff; border: 0.1vw solid #000;">
       <table>
         <tr>
-          <td class="header-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></td>
-          <td><div class="x">Web-page 3</div></td>
+          <td class="header-text" style="text-align: justify; padding-left: 1vw; padding-right: 3vw;">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </td>
+          <td>
+            <div class="x" style="padding: 1vw; margin-right: 2vw; min-width: 8vw; text-align: center; background-color: #ffffff; border: 0.1vw solid #000;">Web-page 3</div>
+          </td>
         </tr>
       </table>
     </td>
   </tr>
 
   <tr>
-    <td class="short-text">
+    <td class="short-text" style="text-align: right; padding: 0 1vw; height: 5vw; background-color: #e5f2c9; border: 0.1vw solid #000;">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </td>
 
-    <td rowspan="2" class="list-container">
+    <td rowspan="2" class="list-container" style="padding: 1vw 3vw; text-align: justify; width: 20vw; background-color: #dff0d8; border: 0.1vw solid #000;">
       <div class="list">
         <ol>
           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
@@ -44,10 +47,12 @@
   </tr>
 
   <tr>
-    <td class="image-with-text">
+    <td class="image-with-text" style="background-color: #ffffff; border: 0.1vw solid #000;">
       <table>
         <tr>
-          <td><img src="img/img_3.png" alt="image 3"></td>
+          <td>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXJA32WU4rBpx7maglqeEtt3ot1tPIRWptxA&s" alt="image 3" style="max-width: 20vw; margin: 1vw;">
+          </td>
 
           <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</td>
         </tr>
@@ -56,18 +61,20 @@
   </tr>
 
   <tr>
-    <td colspan="3" class="footer">
-      <table class="footer-table">
+    <td colspan="3" class="footer" style="height: 5vw; background-color: #d0e7ff; border: 0.1vw solid #000;">
+      <table class="footer-table" style="width: 100%; vertical-align: center;">
         <tr>
-          <td><div class="y">Main Menu</div></td>
-          <td class="references-container">
-            <div class="references">
-              <ul>
-                <li><a href="index1.html">Web-page 1</a></li>
-                <li><a href="index2.html">Web-page 2</a></li>
-                <li><a href="index3.html">Web-page 3</a></li>
-                <li><a href="index4.html">Web-page 4</a></li>
-                <li><a href="index5.html">Web-page 5</a></li>
+          <td>
+            <div class="y" style="min-width: 5vw; padding: 1vw; margin-left: 2vw; text-align: center; border: 0.1vw solid #000; background-color: white;">Main Menu</div>
+          </td>
+          <td class="references-container" style="float: right;">
+            <div class="references" style="text-decoration: none;">
+              <ul style="list-style: none;">
+                <li style="display: inline-block; padding: 0 2vw;"><a href="index1.html">Web-page 1</a></li>
+                <li style="display: inline-block; padding: 0 2vw;"><a href="index2.html">Web-page 2</a></li>
+                <li style="display: inline-block; padding: 0 2vw;"><a href="index3.html">Web-page 3</a></li>
+                <li style="display: inline-block; padding: 0 2vw;"><a href="index4.html">Web-page 4</a></li>
+                <li style="display: inline-block; padding: 0 2vw;"><a href="index5.html">Web-page 5</a></li>
               </ul>
             </div>
           </td>
