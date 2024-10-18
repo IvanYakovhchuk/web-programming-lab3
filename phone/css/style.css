@@ -24,7 +24,6 @@ body {
   align-items: center;
   justify-content: center;
   flex: 1;
-  /*min-width: 13dvh;*/
   padding: 1dvh;
   font-size: 1.9dvh;
   text-align: left;
@@ -104,7 +103,7 @@ body {
 
 .text-with-image img{
   align-self: center;
-  height: 9dvh;
+  height: 8dvh;
   margin: 2dvh;
 }
 
@@ -113,7 +112,6 @@ body {
   align-items: center;
   justify-content: center;
   flex: 1;
-  /*min-width: 15dvh;*/
   height: 100%;
   font-size: 1.9dvh;
   background-color: #dff0d8;
