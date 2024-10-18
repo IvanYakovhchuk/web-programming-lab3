@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: row;
   flex: 6;
-  border: 0.1vw solid #000;
+  border: 0.1dvh solid #000;
 }
 
 .menu{
@@ -25,7 +25,7 @@ body {
   font-size: 1.7dvh;
   text-align: left;
   background-color: #fdd;
-  border: 0.1vw solid #000;
+  border: 0.1dvh solid #000;
 }
 
 .content{
@@ -57,7 +57,7 @@ body {
   padding: 1dvh;
   font-size: 1.3dvh;
   background-color: #ffffff;
-  border: 0.1vw solid #000;
+  border: 0.1dvh solid #000;
 }
 
 .main-content{
@@ -106,7 +106,7 @@ body {
   height: 100%;
   font-size: 1.5dvh;
   background-color: #dff0d8;
-  border: 0.1vw solid #000;
+  border: 0.1dvh solid #000;
 }
 
 .list ol{
@@ -122,7 +122,7 @@ body {
   flex: 1;
   font-size: 1.5dvh;
   background-color: #d0e7ff;
-  border: 0.1vw solid #000;
+  border: 0.1dvh solid #000;
 }
 
 .y{
@@ -153,28 +153,4 @@ body {
 .references a{
   text-decoration: none;
 }
-
-/*@media (max-width: 768px) {*/
-/*  .menu, .header, .list {*/
-/*    font-size: 3vw;*/
-/*  }*/
-
-/*  .footer{*/
-/*    font-size: 2vw;*/
-/*  }*/
-
-/*  .menu {*/
-/*    flex: 0 0 25%;*/
-/*  }*/
-
-/*  .y {*/
-/*    margin-right: 10vw;*/
-/*  }*/
-/*}*/
-
-/*@media (max-width: 480px) {*/
-/*  .menu {*/
-/*    flex: 0 0 30%;*/
-/*  }*/
-/*}*/
 
